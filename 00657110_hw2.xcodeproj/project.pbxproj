@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		532DA87924402B9400E0E602 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532DA87824402B9400E0E602 /* AppView.swift */; };
 		538B6B47243DB0C50041BB42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538B6B46243DB0C50041BB42 /* AppDelegate.swift */; };
 		538B6B49243DB0C50041BB42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538B6B48243DB0C50041BB42 /* SceneDelegate.swift */; };
 		538B6B4B243DB0C50041BB42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538B6B4A243DB0C50041BB42 /* ContentView.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		532DA87824402B9400E0E602 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		538B6B43243DB0C50041BB42 /* 00657110_hw2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 00657110_hw2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		538B6B46243DB0C50041BB42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		538B6B48243DB0C50041BB42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,14 +113,15 @@
 		538B6B45243DB0C50041BB42 /* 00657110_hw2 */ = {
 			isa = PBXGroup;
 			children = (
-				538B6B7A243DB2550041BB42 /* youtubeDetail.swift */,
 				538B6B46243DB0C50041BB42 /* AppDelegate.swift */,
+				538B6B7A243DB2550041BB42 /* youtubeDetail.swift */,
 				538B6B7C243DB8120041BB42 /* youtuberlist.swift */,
 				538B6B7E243DB9AB0041BB42 /* youtubrRow.swift */,
-				538B6B82243DC11F0041BB42 /* SecondView.swift */,
+				532DA87824402B9400E0E602 /* AppView.swift */,
 				538B6B76243DB0F70041BB42 /* File.swift */,
 				538B6B48243DB0C50041BB42 /* SceneDelegate.swift */,
 				538B6B4A243DB0C50041BB42 /* ContentView.swift */,
+				538B6B82243DC11F0041BB42 /* SecondView.swift */,
 				538B6B4C243DB0C80041BB42 /* Assets.xcassets */,
 				538B6B51243DB0C80041BB42 /* LaunchScreen.storyboard */,
 				538B6B54243DB0C80041BB42 /* Info.plist */,
@@ -293,6 +296,7 @@
 				538B6B7F243DB9AB0041BB42 /* youtubrRow.swift in Sources */,
 				538B6B7B243DB2550041BB42 /* youtubeDetail.swift in Sources */,
 				538B6B49243DB0C50041BB42 /* SceneDelegate.swift in Sources */,
+				532DA87924402B9400E0E602 /* AppView.swift in Sources */,
 				538B6B4B243DB0C50041BB42 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

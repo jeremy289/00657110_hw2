@@ -7,7 +7,10 @@
 //
 
 import SwiftUI
-
+import SafariServices
+/*if let url = URL(string: "https://developer.apple.com") {
+   let controller = SFSafariViewController(url: url)
+}*/
 struct DemoView: View {
       let lyrics = ["crazy"]
         

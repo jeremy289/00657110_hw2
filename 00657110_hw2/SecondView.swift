@@ -9,23 +9,27 @@
 import SwiftUI
 
 struct SecondView: View {
-    let arrays=["狠愛演1","狠愛演2","狠愛演3","狠愛演4","狠愛演5","狠愛演6"
-    ,"狠愛演7","狠愛演8","狠愛演9"]
+//    let image = UIImage(named: "\(self.arrays[item])")!
+    @State var arrays  = ["狠愛演1","狠愛演2","狠愛演3","狠愛演4","狠愛演5","狠愛演6","狠愛演7","狠愛演8","狠愛演9"]
    var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
-            HStack {
-                List(arrays.indices){(item) in
-                    Image(self.arrays[item])
-                    .resizable()
-                    .scaledToFill()
-                    .frame(width: 200)
-                    .clipped()
+            VStack {
+                HStack {
+                    ForEach(arrays.indices){(item) in
+                        
+                        Image(self.arrays[item])
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 100)
+                        .clipShape(Circle())
+                        .clipped()
+                    }
+                    
+                   
                 }
-                
-               
+                .frame(height: 100)
+                .padding(.horizontal, 20)
             }
-            .frame(height: 200)
-            .padding(.horizontal, 20)
         }
     }
 }
