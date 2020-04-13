@@ -12,7 +12,7 @@ struct youtubrRow: View {
     
     let youtube:youtube
     var body: some View {
-           HStack {
+        HStack(alignment: .center, spacing: 10){
                Image(youtube.name)
                    .resizable()
                    .scaledToFill()

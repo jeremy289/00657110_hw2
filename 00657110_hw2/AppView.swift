@@ -11,21 +11,26 @@ import SwiftUI
 struct AppView: View {
     var body: some View {
         TabView {
-                   youtuberlist()
-                       .tabItem {
-                           Text("member")
-                           Image(systemName: "music.house.fill")
-                   }
-                   SecondView()
-                       .tabItem {
-                           Text("About")
-                           Image(systemName: "info.circle.fill")
-                   }
-                   DemoView()
-                       .tabItem {
-                           Text("video")
-                           Image(systemName: "video")
-                   }
+                firstView()
+                    .tabItem {
+                        Text("home")
+                        Image(systemName: "music.house.fill")
+                }
+                youtuberlist()
+                    .tabItem {
+                        Text("member")
+                        Image(systemName: "person.fill")
+                }
+                SecondView()
+                    .tabItem {
+                        Text("Stickers")
+                        Image(systemName: "film")
+                }
+                hot_videoView()
+                    .tabItem {
+                        Text("video")
+                        Image(systemName: "video")
+                }
                    .accentColor(.red)
                }
     }

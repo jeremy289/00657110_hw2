@@ -12,11 +12,10 @@ struct SecondView: View {
 //    let image = UIImage(named: "\(self.arrays[item])")!
     @State var arrays  = ["狠愛演1","狠愛演2","狠愛演3","狠愛演4","狠愛演5","狠愛演6","狠愛演7","狠愛演8","狠愛演9"]
    var body: some View {
+    VStack{
         ScrollView(.horizontal, showsIndicators: false) {
-            VStack {
                 HStack {
                     ForEach(arrays.indices){(item) in
-                        
                         Image(self.arrays[item])
                         .resizable()
                         .scaledToFill()
@@ -29,7 +28,9 @@ struct SecondView: View {
                 }
                 .frame(height: 100)
                 .padding(.horizontal, 20)
+                Spacer()
             }
+       
         }
     }
 }

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		532DA87924402B9400E0E602 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532DA87824402B9400E0E602 /* AppView.swift */; };
+		533095B0244431C800F1DBB1 /* firstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533095AF244431C800F1DBB1 /* firstView.swift */; };
+		533095B22444366400F1DBB1 /* hot_videoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533095B12444366400F1DBB1 /* hot_videoView.swift */; };
+		533095B424443AD300F1DBB1 /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533095B324443AD300F1DBB1 /* LinkView.swift */; };
 		538B6B47243DB0C50041BB42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538B6B46243DB0C50041BB42 /* AppDelegate.swift */; };
 		538B6B49243DB0C50041BB42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538B6B48243DB0C50041BB42 /* SceneDelegate.swift */; };
 		538B6B4B243DB0C50041BB42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538B6B4A243DB0C50041BB42 /* ContentView.swift */; };
@@ -43,6 +46,9 @@
 
 /* Begin PBXFileReference section */
 		532DA87824402B9400E0E602 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		533095AF244431C800F1DBB1 /* firstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstView.swift; sourceTree = "<group>"; };
+		533095B12444366400F1DBB1 /* hot_videoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hot_videoView.swift; sourceTree = "<group>"; };
+		533095B324443AD300F1DBB1 /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
 		538B6B43243DB0C50041BB42 /* 00657110_hw2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 00657110_hw2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		538B6B46243DB0C50041BB42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		538B6B48243DB0C50041BB42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,8 +121,11 @@
 			children = (
 				538B6B46243DB0C50041BB42 /* AppDelegate.swift */,
 				538B6B7A243DB2550041BB42 /* youtubeDetail.swift */,
+				533095AF244431C800F1DBB1 /* firstView.swift */,
 				538B6B7C243DB8120041BB42 /* youtuberlist.swift */,
+				533095B12444366400F1DBB1 /* hot_videoView.swift */,
 				538B6B7E243DB9AB0041BB42 /* youtubrRow.swift */,
+				533095B324443AD300F1DBB1 /* LinkView.swift */,
 				532DA87824402B9400E0E602 /* AppView.swift */,
 				538B6B76243DB0F70041BB42 /* File.swift */,
 				538B6B48243DB0C50041BB42 /* SceneDelegate.swift */,
@@ -289,13 +298,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				538B6B47243DB0C50041BB42 /* AppDelegate.swift in Sources */,
+				533095B0244431C800F1DBB1 /* firstView.swift in Sources */,
 				538B6B81243DBD5A0041BB42 /* DemoView.swift in Sources */,
 				538B6B77243DB0F70041BB42 /* File.swift in Sources */,
 				538B6B83243DC11F0041BB42 /* SecondView.swift in Sources */,
 				538B6B7D243DB8120041BB42 /* youtuberlist.swift in Sources */,
+				533095B22444366400F1DBB1 /* hot_videoView.swift in Sources */,
 				538B6B7F243DB9AB0041BB42 /* youtubrRow.swift in Sources */,
 				538B6B7B243DB2550041BB42 /* youtubeDetail.swift in Sources */,
 				538B6B49243DB0C50041BB42 /* SceneDelegate.swift in Sources */,
+				533095B424443AD300F1DBB1 /* LinkView.swift in Sources */,
 				532DA87924402B9400E0E602 /* AppView.swift in Sources */,
 				538B6B4B243DB0C50041BB42 /* ContentView.swift in Sources */,
 			);
