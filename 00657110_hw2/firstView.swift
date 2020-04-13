@@ -18,7 +18,7 @@ struct firstView: View {
             Image("合照")
             .resizable()
             .scaledToFit()
-            
+             
         }
     }
 }
