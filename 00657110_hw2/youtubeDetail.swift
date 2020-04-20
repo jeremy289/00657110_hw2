@@ -18,7 +18,7 @@ struct youtubeDetail: View {
             Text(youtube.lyrics)
                 .padding()
         }
-        .navigationBarTitle(youtube.name)
+        .navigationBarTitle(youtube.name).frame(width: UIScreen.main.bounds.width*5/6).lineLimit(/*@START_MENU_TOKEN@*/3/*@END_MENU_TOKEN@*/)
         
     }
 }
