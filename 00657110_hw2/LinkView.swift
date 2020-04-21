@@ -1,38 +1,38 @@
-//
-//  LinkView.swift
+//  youtubeDetail.swift
 //  00657110_hw2
 //
-//  Created by User04 on 2020/4/13.
+//  Created by User04 on 2020/4/8.
 //  Copyright © 2020 110. All rights reserved.
 //
-/*
+
 import SwiftUI
 import SafariServices
 struct LinkView: View {
-    let youtube:youtube
+    
+    let youtube: youtube
+
     var body: some View {
-        HStack (alignment: .center){
-            Image(youtube.name)
-                .resizable()
-                .scaledToFill()
-                .frame(width: 80, height: 80)
-                .clipShape(Circle())
-            VStack(alignment: .leading) {
-                Text(youtube.name)
-                Text(youtube.singer)
-                
-            }
-            Spacer()
-            
+        VStack {
+            youtubeImage(youtube: youtube)
+    
+            Text(youtube.lyrics)
+                .padding()
         }
-        let controller = URL(url: youtube.lyrics) else { return }
-        UIApplication.shared.open(url)
+        .navigationBarTitle(youtube.name).frame(width: UIScreen.main.bounds.width*5/6).lineLimit(/*@START_MENU_TOKEN@*/3/*@END_MENU_TOKEN@*/)
+        
     }
 }
 
-struct LinkView_Previews: PreviewProvider {
-    static var previews: some View {
-        LinkView(youtube: .demoyoutuber)
-        .previewLayout(.sizeThatFits)
+
+struct LinkView_Preview: View {
+    let youtube: youtube
+    
+    var body: some View {
+        Image(youtube.name)
+            .resizable()
+            .scaledToFit()
+            .frame(height: 300)
+            .clipped()
     }
-}*/
+}
+

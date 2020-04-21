@@ -14,7 +14,7 @@ struct AppView: View {
                 firstView()
                     .tabItem {
                         Text("home")
-                        Image(systemName: "music.house.fill")
+                        Image(systemName: "house.fill")
                 }
                 youtuberlist()
                     .tabItem {
@@ -33,6 +33,7 @@ struct AppView: View {
                 }
                    .accentColor(.red)
                }
+        
     }
 }
 

@@ -15,13 +15,13 @@ struct hot_videoView: View {
                 Section(header: Text("熱門影片")) {
                     
                     ForEach(video) { (youtube) in
-                        NavigationLink(destination: youtubeDetail(youtube: youtube)) {
+                        NavigationLink(destination: LinkView(youtube: youtube)) {
                             youtubrRow(youtube: youtube)
                         }
                     }
                 }
                
-               .foregroundColor(.primary)
+               //.foregroundColor(.primary)
                 
             }
         }

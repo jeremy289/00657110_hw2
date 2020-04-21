@@ -22,11 +22,11 @@ struct youtubeDetail: View {
         
     }
 }
-struct SongDetail_Previews: PreviewProvider {
+/*struct SongDetail_Previews: PreviewProvider {
     static var previews: some View {
         youtubeDetail(youtube: youtuber[0])
     }
-}
+}*/
 
 struct youtubeImage: View {
     let youtube: youtube
@@ -34,7 +34,7 @@ struct youtubeImage: View {
     var body: some View {
         Image(youtube.name)
             .resizable()
-            .scaledToFill()
+            .scaledToFit()
             .frame(height: 300)
             .clipped()
     }

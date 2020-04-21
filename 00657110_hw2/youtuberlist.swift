@@ -25,7 +25,9 @@ struct youtuberlist: View {
                 
             }
         }
+      
     }
+    //.background(Image("light_background"))
 }
 
 struct youtuberlist_Previews: PreviewProvider {
