@@ -13,7 +13,14 @@ struct LinkView: View {
 
     var body: some View {
         VStack {
-            youtubeImage(youtube: youtube)
+            Button(action: {
+                guard let url = URL(string: self.youtube.lyrics) else { return }
+                  UIApplication.shared.open(url)
+            }) {
+                youtubeImage(youtube: youtube)
+               
+            }.buttonStyle(PlainButtonStyle())
+            //youtubeImage(youtube: youtube)
     
             Text(youtube.lyrics)
                 .padding()

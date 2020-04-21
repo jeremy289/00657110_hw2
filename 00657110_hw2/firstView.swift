@@ -10,12 +10,12 @@ import SwiftUI
 
 struct firstView: View {
     @State private var moveDistance: CGFloat = 0
-    
     var body: some View {
         VStack {
             Button("上移標題") {
                 self.moveDistance -= 100
             }
+           
             Text("高屏第一偶像團體")
                 .font(.largeTitle)
                 .foregroundColor(Color.pink)
@@ -27,7 +27,8 @@ struct firstView: View {
                 .scaledToFit()
                 
         }
-        .background(Image("light_background").opacity(0.3))
+        .background(Image("light_background"))
+        
     }
 }
 
